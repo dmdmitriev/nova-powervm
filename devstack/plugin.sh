@@ -78,10 +78,11 @@ function install_nova_powervm {
 # start_nova_powervm() - Start the nova_powervm process
 function start_nova_powervm {
     # Check that NovaLink is installed and running
-    check_novalink_install
+    # check_novalink_install
 
     # This function intentionally functionless as the
     # compute service will start normally
+    :
 }
 
 # stop_nova_powervm() - Stop the nova_powervm process
